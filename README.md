@@ -4,12 +4,14 @@ The Model has two layers. The first layer is the pre-trained ResNet-50 model, wh
 and can classify objects into one of thousands of categories. The second layer is a Dense layer with a softmax
 activation function.
 
-#Dataset
+# Dataset
 The training dataset used contains 10,000 images of cats and 10,000 images of dogs.
 
 The testing dataset used contains 2,500 images of cats and 2,500 images of dogs.
 
-#Model
+Also Contains an unlabelled dataset of 12,500 dog and cat pictures to use for predictions.
+
+# Model
 On my initial run using SGD as my optimization function, and a batch size of 25, the results were the following:
 ```
 2838s 4s/step - loss: 0.1019 - acc: 0.9620 - val_loss: 0.0607 - val_acc: 0.9776
