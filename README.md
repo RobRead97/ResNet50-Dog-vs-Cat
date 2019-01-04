@@ -29,4 +29,16 @@ Strides and Dropout to see if I can reach higher than 99% accuracy.
 1278s 2s/step - loss: 0.0991 - acc: 0.9626 - val_loss: 0.0543 - val_acc: 0.9802
 ```
 
+# Example App
+I've made a super basic example app that randomly selects unlabelled images from the predict directory and displays
+them labelled with the model's prediction. This app uses the pre-trained model found in the model directory. To run the
+app, from the example-app directory use:
+```
+python main.py (optional number of random images to select)
+```
 
+For Example, if you want to see 20 predictions, run:
+```
+python main.py 20
+```
+If you don't specify a number of images to predict, the default is set to 4.
