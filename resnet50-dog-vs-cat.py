@@ -39,7 +39,7 @@ validation_generator = data_generator.flow_from_directory(
         target_size=(image_size, image_size),
         class_mode='categorical')
 
-# Train the model. On my potato, this takes about 45 minutes. Currently the model is 96.2% accurate.
+# Train the model. On my potato, this takes about 45 minutes. Currently the model is 98.02% accurate.
 seq_model.fit_generator(
         train_generator,
         validation_data=validation_generator)

@@ -22,3 +22,11 @@ That's 47 minutes and 18 seconds to train, with an accuracy of 97.76%
 Of course I ran the training on a potato and therefor training time would be shorter with a better computer. Still,
 this dataset is obviously more than sufficient. In future iterations I will try to apply Data Augmentation as well as 
 Strides and Dropout to see if I can reach higher than 99% accuracy.
+
+# Latest Run
+
+```
+1278s 2s/step - loss: 0.0991 - acc: 0.9626 - val_loss: 0.0543 - val_acc: 0.9802
+```
+
+
